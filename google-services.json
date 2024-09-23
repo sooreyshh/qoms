@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754652288536",
+    "project_id": "croms-8a81f",
+    "storage_bucket": "croms-8a81f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754652288536:android:7a1042f0d64e977947556d",
+        "android_client_info": {
+          "package_name": "com.croms.ohmts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhH43fIPqCAsasCocS0GpUdwphIVWqgS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "qiots",
+    "slug": "snack-57535ab8-f434-4a5f-8627-6029f5ea302b",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    
+    
+    
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Order Management System",
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.mycorp.myapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.mycorp.myapp",
+        "supportsTablet": true
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
